@@ -73,10 +73,8 @@ msgid "<b>Comments</b> (double-click to edit)"
 msgstr "<b>Comentários</b> (click duplo para editar)"
 
 #: Gtk/ScheduleBox.vala:168
-msgid ""
-"A maintenance task runs once every hour and creates snapshots as needed."
-msgstr ""
-"Uma tarefa de manutenção executa uma vez por hora e cria backups conforme "
+msgid "A maintenance task runs once every hour and creates snapshots as needed."
+msgstr "Uma tarefa de manutenção é executada a cada hora e cria backups conforme "
 "necessário."
 
 #: Console/AppConsole.vala:700 Console/AppConsole.vala:764
@@ -148,10 +146,7 @@ msgid ""
 msgstr ""
 "Todos os arquivos são copiados quando o primeiro backup é criado. Os backups "
 "seguintes são incrementais. Os arquivos inalterados serão vinculados por um "
-"link físico a partir do backup anterior, se disponível.\n"
-"Todos os arquivos são copiados quando o primeiro backup é criado. Os backups "
-"subsequentes são incrementais. Os arquivos inalterados serão vinculados de "
-"forma rígida a partir do instantâneo anterior, se disponível."
+"link físico a partir do backup anterior, se disponível."
 
 #: Gtk/ExcludeMessageWindow.vala:130
 msgid "All other files and folders are excluded."
@@ -284,34 +279,24 @@ msgstr "Clientes Bittorrent"
 
 #: Gtk/ScheduleBox.vala:136 Gtk/SnapshotListBox.vala:246
 msgid "Boot"
-msgstr ""
-"Na Inicialização\n"
-"Boot"
+msgstr "Inicialização\n"
 
 #: Gtk/RestoreDeviceBox.vala:485
 msgid "Boot device not selected"
-msgstr ""
-"Dipositivo de inicialização não selecionado\n"
-"Dipositivo de boot não selecionado"
+msgstr "Dipositivo de inicialização não selecionado"
 
 #: Core/Main.vala:1034
 msgid "Boot snapshot failed!"
-msgstr ""
-"Backup durante a inicialização falhou!\n"
-"Boot pela cópia falhou!"
+msgstr "Backup durante a inicialização falhou!\n"
 
 #: Gtk/ScheduleBox.vala:169
-msgid ""
-"Boot snapshots are created with a delay of 10 minutes after system startup."
-msgstr ""
-"Backups de inicialização são criados com um atraso de 10 minutos após o "
+msgid "Boot snapshots are created with a delay of 10 minutes after system startup."
+msgstr "Backups de inicialização são criados com um atraso de 10 minutos após o "
 "início do sistema."
 
 #: Core/Main.vala:1015
 msgid "Boot snapshots are enabled"
-msgstr ""
-"Backups na inicialização estão ativados\n"
-"Cópias de boot estão ativadas"
+msgstr "Backups na inicialização estão ativados\n"
 
 #: Gtk/BootOptionsWindow.vala:49
 msgid "Bootloader Options"
@@ -722,9 +707,7 @@ msgstr "Dispositivos com sistemas de arquivos Linux"
 
 #: Gtk/BackupDeviceBox.vala:105
 msgid "Devices with Windows file systems are not supported (NTFS, FAT, etc)."
-msgstr ""
-"Dispositivos com sistemas de arquivos Windows não são suportados (NTFS, FAT, "
-"etc.)"
+msgstr "Dispositivos com sistemas de arquivos Windows não são suportados (NTFS, FAT, etc.)"
 
 #: Core/SnapshotRepo.vala:907
 msgid "Directory not found"
@@ -744,7 +727,7 @@ msgstr "Distribuição"
 
 #: Utility/Gtk/AboutWindow.vala:453
 msgid "Documentation"
-msgstr "Doações"
+msgstr "Documentação"
 
 #: Gtk/MainWindow.vala:209 Gtk/MainWindow.vala:210
 #: Utility/Gtk/DonationWindow.vala:42 Utility/Gtk/DonationWindow.vala:75
@@ -757,11 +740,11 @@ msgstr "Doações"
 
 #: Gtk/MainWindow.vala:1060
 msgid "Enable scheduled snapshots to protect your system"
-msgstr "Ativar backups agendados para proteger o seu sistema"
+msgstr "Ativar backups agendados para proteger seu sistema"
 
 #: Utility/Device.vala:1454
 msgid "Encrypted Device"
-msgstr "Dispositivo Encriptado"
+msgstr "Dispositivo Criptografado"
 
 #: Gtk/UsersBox.vala:233
 msgid "Encrypted Home Directory"
@@ -818,7 +801,7 @@ msgstr "Exemplos"
 #: Gtk/UsersBox.vala:133
 #, fuzzy
 msgid "Exclude All Files"
-msgstr "Excluir Tudo"
+msgstr "Excluir todos os arquivos"
 
 #: Gtk/ExcludeAppsBox.vala:51 Gtk/RestoreExcludeBox.vala:55
 msgid "Exclude Application Settings"
@@ -2638,7 +2621,7 @@ msgstr "Página Web"
 
 #: Gtk/ScheduleBox.vala:82 Gtk/SnapshotListBox.vala:249
 msgid "Weekly"
-msgstr "Semanalmente"
+msgstr "Semanal"
 
 #: Core/Main.vala:1127
 msgid "Weekly snapshot failed!"
